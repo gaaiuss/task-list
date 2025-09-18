@@ -1,6 +1,6 @@
 :root {
   --primary-color:  rgb(133, 120, 156);
-  --primary-color-darker: rgb(55, 49, 66);
+  --primary-color-darker: rgb(33, 29, 39);
 }
 
 * {
@@ -11,10 +11,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../img/background.png');
-  background-size: cover;
-  /* background: black; */
-  overflow: hidden;
+  background: var(--primary-color-darker);
   font-family: serif;
   font-size: 1.3em;
   line-height: 2.5em;
